@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frameLayout"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<jp.dip.sys1.multitouch.ScalableView android:id="@+id/ImageView01"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:src="@drawable/grandmenu" 
+		android:focusableInTouchMode="true"
+		android:focusable="true" android:clickable="true" android:scaleType="matrix"/>
+	<!-- <jp.dip.sys1.multitouch.ScalableView android:id="@+id/Overray"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:src="@drawable/icon"
+	    android:focusableInTouchMode="true"
+	    android:focusable="true" android:clickable="true" android:scaleType="matrix"
+	    android:alpha="0.5"/> -->
+	<!-- <jp.dip.sys1.multitouch.TopScalableView
+	    android:id="@+id/TopScalableView"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:src="@drawable/icon"
+	    android:focusableInTouchMode="true"
+	    android:focusable="true"
+	    android:clickable="true"
+	    android:scaleType="matrix"
+	    android:alpha="0.4"/> -->
+	<jp.dip.sys1.multitouch.TopScalableView
+	    android:id="@+id/TopScalableView"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:src="@drawable/icon"
+	    android:focusableInTouchMode="true"
+	    android:focusable="true"
+	    android:scaleType="matrix"
+	    android:alpha="0.8"/>
+</FrameLayout>
